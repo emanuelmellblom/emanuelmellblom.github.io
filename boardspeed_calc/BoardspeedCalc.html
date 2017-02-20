@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<script type="text/javascript" src="boardcalc.js"></script>
+	<link rel="stylesheet" type="text/css" href="boardcalcStyle.css">
+	<title>Boardspeed calculator</title>
+</head>
+<body>
+<div id="content">
+	<div id="header">
+		<h2>Boardspeed Calculator</h2>
+	</div>
+
+	<div id="smallheader">
+		<h4>Inputs</h4>
+	</div>
+	
+	<!-- Inputs -->
+	<div id ="inputs">
+		<!-- Initial ratio -->
+		<div class="tooltip">
+			<div id="textBox"><input type="text" id="initialGearRatio" placeHolder="Initial gear ratio"><span class="tooltiptext">Note that the calculations dont take rider weight into account</span>
+		</div>
+		<div id="textBox"><input type="text" id="pinion" placeHolder="Motor pully num. teeth"></div>
+		<div id="textBox"><input type="text" id="spur" placeholder="Wheel hub num. teeth"></div>
+		<div id="textBox"><input type="text" id="batteryVoltage" placeHolder="Battery voltage"></div>
+		<div id="textBox"><input type="text" id="motorKv" placeHolder="Motor KV"></div>
+		<div id="textBox"><input type="text" id="wheelDiameter" placeHolder="Wheel diameter"></div>
+	</div>
+
+	<!-- Button -->
+	<div id="button">
+		<button onclick="calc()">Calculate values</button>
+	</div>
+
+	<br>
+
+	<!-- Outputs -->
+	<div id="smallheader">
+		<h4>Outputs</h4>
+	</div>
+	<div id="outputs">
+		<h5>Final Ratio</h5>
+		<div id="textBox"><input type="text" id="finalRatio"></div>
+		<h5>Engine Revolutions</h5>
+		<div id="textBox"><input type="text" id="engineRevolutions"></div>
+		<h5>Speed Kmh</h5>
+		<div id="textBox"><input type="text" id="speedKmh"></div>
+		<h5>Speed Mph</h5>
+		<div id="textBox"><input type="text" id="speedMph"></div>
+	</div>
+</div>
+
+<footer>
+	<a href="https://emanuelmellblom.github.io">Emanuel Mellblom</a>
+</footer>
+
+</body>
+</html>
