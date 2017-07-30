@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>EmanuelMellblom.se</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- My Image -->
+						<div id="logo">
+							<span class="image avatar48"><img src="Bilder/EmanuelMellblom.jpg" alt="" /></span>
+							<h1 id="title">&nbsp;&nbsp;Emanuel Mellblom</h1>
+							<p>Software Engineer</p>
+						</div>
+
+					<!-- Nav Menu -->
+						<nav id="nav">
+							<ul>
+								<!-- Link to start page -->
+								<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+								<!-- Blog 1, Blog intro -->
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!--twitter-->
+							<li><a href="https://twitter.com/EmanuelMellblom" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<!--facebook-->
+							<li><a href="https://www.facebook.com/emanuel.mellblom" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<!--github-->
+							<li><a href="https://github.com/emanuelmellblom" class="icon fa-github"><span class="label">Github</span></a></li>
+							<!--email-->
+							<li><a href="mailto:emanuel.mellblom@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<!--slack-->
+							<li><a href="#" class="icon fa-slack"><span class="label">Slack</span></a></li>
+							<!--Linkedin-->
+							<li><a href="https://www.linkedin.com/in/emanuel-mellblom-0ba53776?trk=nav_responsive_tab_profile" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+
+						</ul>
+				</div>
+			</div>
+
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Emanuel Mellblom</strong></h2>
+								<p>I'am a maker and is currently study to become a Software Engineer<br/>
+								Read more about me and check out my projects in this site.</p>
+							</header>
+
+							<footer>
+							</footer>
+
+						</div>
+					</section>
+				
+				<!-- text, image, link to github and embedded video -->
+					<section id="1" class="three">
+						<div class="container">
+							<header>
+								<h2>1:10 self-driving rc car</h2>
+							</header>
+							<a href="#" class="image"><img src="Bilder/SelfDrivingCarmin.jpg" alt="" /></a>
+							<p>In This project that took place in the course DIT168 at Gothenburg University the goal was to develop an autonomous 1:10 scale car capable of performing three main scenarios. Those scenarios were parking, overtaking and lane following. In the parking scenario the goal was to give the car the ability to perform a parallel parking maneuver and park at the side of the road. In Overtaking the goal was to get the car to overtake an obstacle that was placed in the driving lane of the car. The goal of the lane following scenario was to give the car the ability to follow a lane while driving and stop if the car detects a stopline.
+							To our help in realizing this goals we used an open source software called OpenDaVINCI which had functionalities such as inter process communication and much more. We also used OpenCV for image recognition. 
+							The majority of this project is written in the programming language C++. 
+							The system was compiled and built into a Docker image that was later runned in order to use the system.
+							OpenDaVINCI also holds a simulator that was used to test the algorithmic ideas that we had to see if they would work in reality.
+							We also had access to a room with a test track where we could test our implementation in a realistic environment.  
+							The hardware we had at hand for completing this project was a 1:10 scaled rc car with a motor, esc, steering servo, sensors, Arduino mega and a web camera. In this report we will discuss the software architecture of our implementation as well as describing the algorithmic fundamentals and algorithmic ideas realized in this project. <a href="https://github.com/emanuelmellblom/opendlv.scaledcars">Github page</a>. Complete documentation for the project can be found here belov. I also invluded a small video of the car below the documentation.
+							<iframe width="870" height="600" src="https://docs.google.com/document/d/e/2PACX-1vTig0U-MAa6b1JbScZGfJuBw02ozvMMtb2b6z3fM3S_Uioz9KWRMpxH3RYcJs1t0_WUmUgkJXrSqKNm/pub?embedded=true"></iframe>.
+							</p>
+
+							<!-- Youtube clip in the text
+								<div class="videoWrapper">
+   									<iframe width="854" height="480" src="https://www.youtube.com/embed/vCCYqwLcSXI" frameborder="0" allowfullscreen></iframe>
+   								</div>
+   							-->
+							
+						</div>
+					</section>	
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Emanuel Mellblom</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
